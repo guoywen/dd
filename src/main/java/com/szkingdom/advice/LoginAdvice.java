@@ -17,4 +17,6 @@ public class LoginAdvice {
     public void add(){
 
     }
+    public void second(){
+    }
 }
