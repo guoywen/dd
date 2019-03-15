@@ -14,4 +14,7 @@ public class LoginAdvice {
     public void text(){
 
     }
+    public void add(){
+
+    }
 }
