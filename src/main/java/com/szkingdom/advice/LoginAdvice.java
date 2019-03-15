@@ -13,5 +13,6 @@ public class LoginAdvice {
         System.out.println("模拟第二个人");
         System.out.println("远程端发生了改变");
         System.out.println("又有人提交了代码");
+        System.out.println("个人页面发生了改变");
     }
 }
