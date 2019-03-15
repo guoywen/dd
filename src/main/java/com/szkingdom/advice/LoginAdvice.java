@@ -11,5 +11,6 @@ public class LoginAdvice {
     public void log(){
         System.out.println("这是前置通知");
         System.out.println("模拟第二个人");
+        System.out,println("远程库发生了改变");
     }
 }
