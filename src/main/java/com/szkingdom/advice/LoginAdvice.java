@@ -9,10 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class LoginAdvice {
     @Before(value = "execution( public void com.szkingdom.serviceImpl.LoginServiceImpl.test(..))")
     public void log(){
-        System.out.println("这是前置通知");
-        System.out.println("模拟第二个人");
-        System.out.println("远程端发生了改变");
-        System.out.println("又有人提交了代码");
-        System.out.println("个人页面发生了改变");
+       
     }
 }
