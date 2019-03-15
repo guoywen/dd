@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class LoginAdvice {
     @Before(value = "execution( public void com.szkingdom.serviceImpl.LoginServiceImpl.test(..))")
     public void log(){
-        System.out.println("我自己的代码");
+        System.out.println("别人的代码");
+
     }
 }
