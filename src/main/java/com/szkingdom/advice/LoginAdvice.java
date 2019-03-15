@@ -10,7 +10,8 @@ public class LoginAdvice {
     @Before(value = "execution( public void com.szkingdom.serviceImpl.LoginServiceImpl.test(..))")
     public void log(){
 
-        System.out.println("我的代码");
+    }
+    public void text(){
 
     }
 }
