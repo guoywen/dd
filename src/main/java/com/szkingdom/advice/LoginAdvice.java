@@ -12,7 +12,7 @@ public class LoginAdvice {
 
     }
     public void text(){
-
+        System.out.println("增加了输出");
     }
     public void add(){
 
