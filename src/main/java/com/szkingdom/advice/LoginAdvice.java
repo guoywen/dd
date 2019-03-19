@@ -21,4 +21,7 @@ public class LoginAdvice {
     public String sayHello(){
         return "hello";
     }
+    public String say(){
+        System.out.println("在分支上新增了say方法");
+    }
 }
