@@ -15,7 +15,7 @@ public class LoginAdvice {
         System.out.println("增加了输出");
     }
     public void add(){
-
+        System.out.print("在主干上做了修改");
     }
     
     public String sayHello(){
