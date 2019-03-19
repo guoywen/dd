@@ -19,4 +19,7 @@ public class LoginAdvice {
     }
     public void second(){
     }
+    public String sayHello(){
+        return "hello";
+    }
 }
