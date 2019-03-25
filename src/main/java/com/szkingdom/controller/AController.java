@@ -1,6 +1,7 @@
 package com.szkingdom.controller;
 
 public class AController {
+    private int id;
     public void test(){
         System.out.println("开发者A上传了文件");
     }
